@@ -18,8 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: 'npm'
+          node-version: 20
 
       # 3. Setup Java JDK 17 untuk kebutuhan Gradle Android
       - name: Setup Java JDK 17
